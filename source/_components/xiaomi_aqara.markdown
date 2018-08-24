@@ -61,6 +61,8 @@ To enable {{ page.title }} in your installation, add the following to your `conf
 
 ```yaml
 # You can leave MAC empty if you only have one gateway.
+# Key must contain 16 characters. When generating key, find one with 16 characters. 
+
 xiaomi_aqara:
   discovery_retry: 5
   gateways:
